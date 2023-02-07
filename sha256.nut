@@ -3,10 +3,8 @@
 //Hash generation as specified by: https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //                                                   //
-//      THIS HASH GENERATION IS !!NOT!! THE SAME     //
-//      AS REGULAR SHA-256 WHEN CALLED WITHIN TF2    //
-//      BECAUSE IT RUNS ON 32 BIT. HOWEVER, IT       //
-//      WILL WORK ON A 64 BIT SYSTEM                 //
+//      THIS HASH GENERATION DOES NOT WORK AT        //
+//      ALL WHEN CALLED ON A 32 BIT SYSTEM           //
 //                                                   //
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
