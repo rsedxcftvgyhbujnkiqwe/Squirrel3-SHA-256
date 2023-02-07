@@ -25,7 +25,7 @@ K <- [
 ]
 
 //2.2.2 Symbols and operations
-//All addition is modulo
+//All addition is modulo 2^32
 const intcap = 4294967296
 
 //6.2 SHA-256
