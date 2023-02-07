@@ -1,11 +1,12 @@
-//32 bit SHA-256 Library
+//SHA-256 Library
 //Written by: blank
 //Hash generation as specified by: https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //                                                   //
 //      THIS HASH GENERATION IS !!NOT!! THE SAME     //
-//      AS REGULAR SHA-256 BECAUSE TF2 RUNS ON       //
-//      32-BIT. SO THIS PRODUCES A DIFFERENT HASH!   //
+//      AS REGULAR SHA-256 WHEN CALLED WITHIN TF2    //
+//      BECAUSE IT RUNS ON 32 BIT. HOWEVER, IT       //
+//      WILL WORK ON A 64 BIT SYSTEM                 //
 //                                                   //
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
